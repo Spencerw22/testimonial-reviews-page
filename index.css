@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: whitesmoke;
+}
+
+.all {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 12px;
+  display: flex;
+}
+
+img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 20px;
+}
+
+.top-left {
+  background: no-repeat hsl(263, 55%, 52%)
+    url(./images/bg-pattern-quotation.svg);
+  width: 60%;
+  margin: 20px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.top-middle {
+  margin: 20px 20px;
+  width: 25%;
+  background: hsl(217, 19%, 35%);
+  color: white;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.bottom-left {
+  margin: 20px 20px;
+  background: white;
+  width: 25%;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.bottom-middle {
+  margin: 20px 20px;
+  background: hsl(219, 29%, 14%);
+  color: white;
+  width: 60%;
+  padding: 20px 20px;
+  border-radius: 15px;
+}
+
+.top {
+  display: flex;
+  width: 108%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.right {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  width: 17%;
+  background: white;
+  padding: 20px 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  height: 525px;
+}
+
+.bottom {
+  display: flex;
+  width: 108%;
+}
+
+.daniel-top,
+.jonathan-top,
+.jeanette-top,
+.patrick-top,
+.kira-top {
+  font-size: 20px;
+  padding: 20px 0px;
+  font-weight: 600;
+}
+
+.daniel-bottom,
+.jonathan-bottom,
+.jeanette-bottom,
+.patrick-bottom,
+.kira-bottom {
+  opacity: 70%;
+}
